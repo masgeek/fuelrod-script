@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "fuelrod-cli"
+version = "1.0.0"
+description = "Fuelrod command line runner"
+authors = ["Sammy Barasa <barsamms@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "fuelrod_cli" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+colorlog = "^6.7.0"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+typer = {extras = ["all"], version = "^0.9.0"}
+sqlalchemy = "^2.0.16"
+mysql = "^0.0.3"
+cachetools = "^5.3.1"
+
+[tool.poetry.group.dev.dependencies]
+
+[virtualenvs]
+create = true
+in-project = true
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
