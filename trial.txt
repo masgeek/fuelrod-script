@@ -1,0 +1,3 @@
+pip install sqlacodegen git+https://github.com/agronholm/sqlacodegen.git@master
+
+pip install git+https://github.com/tangentlabs/django-oscar-paypal.git@issue/34/oscar-0.6
