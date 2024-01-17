@@ -1,6 +1,25 @@
-cachetools==5.3.1
-colorlog==6.7.0
-python-dotenv==1.0.0
-Requests==2.31.0
-SQLAlchemy==1.4.48
-typer==0.9.0
+annotated-types==0.6.0 ; python_version >= "3.12" and python_version < "4.0"
+cachetools==5.3.2 ; python_version >= "3.12" and python_version < "4.0"
+certifi==2023.11.17 ; python_version >= "3.12" and python_version < "4.0"
+charset-normalizer==3.3.2 ; python_version >= "3.12" and python_version < "4.0"
+click==8.1.7 ; python_version >= "3.12" and python_version < "4.0"
+colorama==0.4.6 ; python_version >= "3.12" and python_version < "4.0"
+colorlog==6.8.0 ; python_version >= "3.12" and python_version < "4.0"
+idna==3.6 ; python_version >= "3.12" and python_version < "4.0"
+inflect==7.0.0 ; python_version >= "3.12" and python_version < "4.0"
+markdown-it-py==3.0.0 ; python_version >= "3.12" and python_version < "4.0"
+mdurl==0.1.2 ; python_version >= "3.12" and python_version < "4.0"
+mysql==0.0.3 ; python_version >= "3.12" and python_version < "4.0"
+mysqlclient==2.2.1 ; python_version >= "3.12" and python_version < "4.0"
+pydantic-core==2.14.6 ; python_version >= "3.12" and python_version < "4.0"
+pydantic==2.5.3 ; python_version >= "3.12" and python_version < "4.0"
+pygments==2.17.2 ; python_version >= "3.12" and python_version < "4.0"
+python-dotenv==1.0.0 ; python_version >= "3.12" and python_version < "4.0"
+requests==2.31.0 ; python_version >= "3.12" and python_version < "4.0"
+rich==13.7.0 ; python_version >= "3.12" and python_version < "4.0"
+shellingham==1.5.4 ; python_version >= "3.12" and python_version < "4.0"
+sqlacodegen==2.3.0.post1 ; python_version >= "3.12" and python_version < "4.0"
+sqlalchemy==0.9.10 ; python_version >= "3.12" and python_version < "4.0"
+typer[all]==0.9.0 ; python_version >= "3.12" and python_version < "4.0"
+typing-extensions==4.9.0 ; python_version >= "3.12" and python_version < "4.0"
+urllib3==2.1.0 ; python_version >= "3.12" and python_version < "4.0"
