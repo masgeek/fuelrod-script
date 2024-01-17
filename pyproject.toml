@@ -16,6 +16,7 @@ python-dotenv = "^1.0.0"
 requests = "^2.31.0"
 cachetools = "^5.3.2"
 sqlalchemy = "^2.0.25"
+nltk = "^3.8.1"
 
 
 [tool.poetry.group.dev.dependencies]

@@ -19,7 +19,7 @@ apiUser = SmsUser()
 token = apiUser.auth_token(username=api_username, password=api_pass)
 campaignRepo = CampaignRepo(fuelrod_token=token)
 userRepo = UserRepo()
-campaigns = campaignRepo.load_unprocessed_campaigns(
+campaigns = campaignRepo.load_campaign(
     campaign_status=MessageStatus.IN_PROGRESS, limit=50
 )
 

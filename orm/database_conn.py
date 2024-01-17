@@ -9,9 +9,9 @@ load_dotenv(verbose=True)
 class MyDb:
     db_engine = None
     db_url: str = environ.get("DB_URL", "mysql://fuelrod:fuelrod@localhost/fuelrod")
-    debug: str | None = environ.get("LOG_LEVEL", None)
+    debug: str | None = environ.get("DEBUG_DB", None)
     debug_db = False
-    if debug == "DEBUG":
+    if debug is not None:
         debug_db = True
 
     def __new__(cls, *args, **kwargs):

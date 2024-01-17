@@ -20,7 +20,7 @@ class CampaignRepo:
         self.logging = MyLogger()
         self.msg_service = MessagingService(token=fuelrod_token)
 
-    def load_unprocessed_campaigns(self, campaign_status: MessageStatus, limit=1):
+    def load_campaign(self, campaign_status: MessageStatus, limit=1):
         self.logging.info(
             f"Loading campaigns with status {campaign_status.name} limited at {limit} records"
         )
